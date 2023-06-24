@@ -1,0 +1,179 @@
+
+
+### Player::Component
+
+```cs
+compoent.ToString();// Returns the name of the object;
+component.Name; //The name of the object.
+```
+
+Component [Player (UnityEngine.Transform) ]
+Component [Player (UnityEngine.Rigidbody) ]
+Component [Player (UnityEngine.CapsuleCollider) ]
+Component [Player (PlayerData) ]
+Component [Player (PlayerAction) ]
+Component [Player (UnityEngine.Animator) ]
+Component [Player (PlayerController) ]
+Component [Player (TEST_Reflection) ]
+
+공통적으로 
+ComponentName : Player, ComponentTag Untagged
+
+---
+
+### Player::Parent Component
+
+Component [Player (UnityEngine.Transform) ]
+Component [Player (UnityEngine.Rigidbody) ]
+Component [Player (UnityEngine.CapsuleCollider) ]
+Component [Player (PlayerData) ]
+Component [Player (PlayerAction) ]
+Component [Player (UnityEngine.Animator) ]
+Component [Player (PlayerController) ]
+Component [Player (TEST_Reflection) ]
+
+공통적으로
+ComponentName : Player, ComponentTag Untagged
+
+---
+
+### Player::ChildComponent
+
+Component [Player (UnityEngine.Transform) ]
+Component [Player (UnityEngine.Rigidbody) ]
+Component [Player (UnityEngine.CapsuleCollider) ]
+Component [Player (PlayerData) ]
+Component [Player (PlayerAction) ]
+Component [Player (UnityEngine.Animator) ]
+Component [Player (PlayerController) ]
+Component [Player (TEST_Reflection) ]
+
+공통적으로
+ComponentName : Player, ComponentTag Untagged
+
+>
+
+Component [Model (UnityEngine.Transform) ]
+Component [Model (UnityEngine.Animator) ]
+
+공통적으로
+ComponentName : Model, ComponentTag Untagged
+
+>
+
+이하
+모델 내부의 스파인 전부
+
+>
+
+Component Skill (UnityEngine.Transform) 
+ComponentName : Skill, ComponentTag Untagged
+
+Component [Q (UnityEngine.Transform)]
+Component [Q (Skill) ]
+Component [Q (SkillData) ]
+
+공통적으로
+ComponentName : Q, ComponentTag Untagged
+
+>
+
+Component [E (UnityEngine.Transform)] 
+Component [R (UnityEngine.Transform)] 
+
+공통적으로 
+ComponentName : R, ComponentTag Untagged
+
+>
+
+Component [WeaponTriple (UnityEngine.Transform)]
+Component [WeaponTriple (Weapon_TripleAttack) ]
+Component [WeaponTriple (WeaponData) ]
+Component [WeaponTriple (TEST_Reflection) ]
+
+공통적으로
+ComponentName : WeaponTriple, ComponentTag Untagged
+
+---
+
+### Player::Properties
+PropertyInfo : Boolean useGUILayout,                Name useGUILayout
+PropertyInfo : Boolean runInEditMode,               Name runInEditMode
+PropertyInfo : Boolean enabled,                     Name enabled
+PropertyInfo : Boolean isActiveAndEnabled,          Name isActiveAndEnabled
+PropertyInfo : UnityEngine.Transform transform,     Name transform
+PropertyInfo : UnityEngine.GameObject gameObject,   Name gameObject
+PropertyInfo : System.String tag,                   Name tag
+
+PropertyInfo : UnityEngine.Component rigidbody,     Name rigidbody
+PropertyInfo : UnityEngine.Component rigidbody2D,   Name rigidbody2D
+PropertyInfo : UnityEngine.Component camera,        Name camera
+PropertyInfo : UnityEngine.Component light,         Name light
+PropertyInfo : UnityEngine.Component animation,     Name animation
+PropertyInfo : UnityEngine.Component constantForce, Name constantForce
+PropertyInfo : UnityEngine.Component renderer,      Name renderer
+PropertyInfo : UnityEngine.Component audio,         Name audio
+PropertyInfo : UnityEngine.Component networkView,   Name networkView
+PropertyInfo : UnityEngine.Component collider,      Name collider
+PropertyInfo : UnityEngine.Component collider2D,    Name collider2D
+PropertyInfo : UnityEngine.Component hingeJoint,    Name hingeJoint
+PropertyInfo : UnityEngine.Component particleSystem,Name particleSystem
+
+PropertyInfo : System.String name,                  Name name
+PropertyInfo : UnityEngine.HideFlags hideFlags,     Name hideFlags
+
+---
+
+### Player:BaseClass
+Type : Equipment, Name Equipment, FullName : Equipment
+
+---
+
+### Player::Interfaces
+Type : IPlayerDataApplicant, Name IPlayerDataApplicant, FullName : IPlayerDataApplicant
+
+---
+
+### Player::Enum
+/===============================================
+
+enums_name
+
+/===============================================
+
+Burn ,Poisend ,Bleed ,Contracted ,Slow ,Confused ,Fearing ,Stern ,Bounded
+
+/===============================================
+
+enums_value
+
+/===============================================
+...
+/===============================================
+
+enums_value_string
+
+/===============================================
+...
+
+---
+
+### Weapon::Parents
+
+Component [WeaponTriple (UnityEngine.Transform)]
+Component [WeaponTriple (Weapon_TripleAttack) ]
+Component [WeaponTriple (WeaponData) ]
+Component [WeaponTriple (TEST_Reflection) ]
+
+ComponentName : WeaponTriple, ComponentTag Untagged
+
+Component [Player (UnityEngine.Transform)] 
+Component [Player (UnityEngine.Rigidbody)] 
+Component [Player (UnityEngine.CapsuleCollider)] 
+Component [Player (PlayerData) ]
+Component [Player (PlayerAction) ]
+Component [Player (UnityEngine.Animator)] 
+Component [Player (PlayerController) ]
+Component [Player (TEST_Reflection) ]
+
+ComponentName : Player, ComponentTag Untagged

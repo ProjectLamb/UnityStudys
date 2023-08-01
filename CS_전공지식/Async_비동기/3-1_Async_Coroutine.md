@@ -111,6 +111,35 @@ private IEnumerator CoroutineLoop(float num){
 }
 ```
 
+```cs
+/*
+* 웹 리퀘스트
+*/
+```
+
+```cs
+/*
+* 비동기 씬 로드
+*/
+
+IEnumerator LoadScene(string _scene)
+{
+    AsyncOperation op = SceneManager.LoadSceneAsync(_scene);
+    op.allowSceneActivation = false;
+    while (!op.isDone)
+    {
+        if(op.progress >= 0.9f)
+        {
+            // 로딩이 되면서 작업해야 할 어떤걸 넣으면 된다.
+            break; // yield break은, 힘수 return의 의미이므로 break이랑 다르다.
+        }
+        yield return null;
+    }
+    yield return new WaitUntil(() => {return count >= cutSceneTextDatas.Count+1;});
+    op.allowSceneActivation = true;
+}
+```
+
 ### 📄 3. 최적화
 
 #### 1. yield 캐싱

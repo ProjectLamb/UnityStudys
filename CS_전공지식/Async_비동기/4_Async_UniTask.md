@@ -368,3 +368,5 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=vactorman&lo
 https://velog.io/@anzsoup/%EC%9C%A0%EB%8B%88%ED%8B%B0%EC%97%90%EC%84%9C-async-await-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 
 https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=109288
+
+https://tlghks1009.tistory.com/6

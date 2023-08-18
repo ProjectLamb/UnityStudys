@@ -55,6 +55,7 @@ public class SoundManager
             _audioSources[(int)Sound.Bgm].loop = true; // bgm 재생기는 무한 반복 재생
         }
     }
+    
     [System.Obsolete("이걸 해야하나? 쌓여서 나쁠게 있으려나..")]
     public void Clear()
     {

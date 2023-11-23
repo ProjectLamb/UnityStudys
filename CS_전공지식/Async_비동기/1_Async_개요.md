@@ -162,6 +162,8 @@ C# JobSystem을 사용한다면 유니티에서도 멀티스레드를 안전하�
 
 ### 📄 참조
 
+https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-multi-process-multi-thread
+
 https://adrianmejia.com/asynchronous-vs-synchronous-handling-concurrency-in-javascript/
 
 https://velog.io/@jinuku/C-async-await%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%B9%84%EB%8F%99%EA%B8%B0%EB%A5%BC-%EB%8F%99%EA%B8%B0%EC%B2%98%EB%9F%BC-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-1

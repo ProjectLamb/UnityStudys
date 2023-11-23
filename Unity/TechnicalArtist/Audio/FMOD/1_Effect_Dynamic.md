@@ -1,6 +1,6 @@
 ##  다이나믹계 
 
-<img src="2023-04-25-09-48-35.png" width=95%>
+<img src="./src/2023-04-25-09-48-35.png" width=95%>
 
 ---
 
@@ -10,8 +10,8 @@
 
 
 <div align=center>
-    <img src="2023-04-25-09-17-28.png" width=60%>
-    <img src="2023-04-25-09-18-44.png" width=26%>
+    <img src="./src/2023-04-25-09-17-28.png" width=60%>
+    <img src="./src/2023-04-25-09-18-44.png" width=26%>
     <br>컴프레서는 <strong>"음"을 압축</strong> 하는 장비
 </div>
 
@@ -26,8 +26,8 @@
 
 #### 2). 값
 <div align=center>
-    <img src="2023-04-25-09-29-00.png" width=400px><br>
-    <img src="2023-04-25-09-33-19.png" width=400px>
+    <img src="./src/2023-04-25-09-29-00.png" width=400px><br>
+    <img src="./src/2023-04-25-09-33-19.png" width=400px>
 </div>
 
 1. Threshold : 음의 압축이 시작되는 최소 음압 기준점
@@ -38,7 +38,7 @@
 
 #### 3). 사이드 체인
 <div align=center>
-    <img src="2023-04-25-09-36-40.png" width=400px>
+    <img src="./src/2023-04-25-09-36-40.png" width=400px>
 </div>
 
 사이드 체인과 컴프레서를 함께 사용한다는 의미는 다음과 같다. 
@@ -52,7 +52,7 @@
 #### 노이즈 차단위해 안쓰면 끄고, 쓸때면 키고 하는 수동적으로 하는것을 자동화 하기 위해 사용 
 
 <div align=center>
-    <img src="2023-04-25-09-42-48.png" width=400px>
+    <img src="./src/2023-04-25-09-42-48.png" width=400px>
 </div>
 
 #### 1). 해석

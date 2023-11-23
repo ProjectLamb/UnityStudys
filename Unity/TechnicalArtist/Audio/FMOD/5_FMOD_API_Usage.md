@@ -183,7 +183,7 @@ public class Footsteps : MonoBehaviour {
 ---
 
 ## 스냅샷 & 불릿타임
-![](2023-04-26-08-02-50.png)
+<img src="./src/2023-04-26-08-02-50.png">
 이펙트값 감지
 
 스냅샷도 일종의 이벤트 인스턴스다.

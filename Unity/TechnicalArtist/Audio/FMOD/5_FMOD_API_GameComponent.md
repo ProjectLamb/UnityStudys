@@ -4,7 +4,7 @@
 
 `StudioListener.cs`
 
-![](2023-04-21-16-25-33.png)
+<img src="./src/2023-04-21-16-25-33.png">
 
 3D 포지셔닝 사운드가 올바르게 패닝하려면 Studio Listener를 카메라 컴포넌트에 붙여야 한다.
 

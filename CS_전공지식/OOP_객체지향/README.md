@@ -98,3 +98,6 @@
       7. 시퀸스 다이어그램
       8. 상태 다이어그램
     ```
+
+### 참조
+[⭐️ 한기대 객체지향 개발론 실습 추천!! ⭐️](https://www.youtube.com/playlist?list=PLsIth_qcusf_4DcL2C8GzkS5sz5TeW38q)

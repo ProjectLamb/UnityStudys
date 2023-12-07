@@ -181,7 +181,7 @@ public class Fighter  : Hero{
 
 </details>
 
-### 📄 4. 팩토리 매소드
+### 📄 4. 팩토리 메소드
 
 ```cs
 T HeroFactory<T>(string heroName) : where T : Hero, new ()

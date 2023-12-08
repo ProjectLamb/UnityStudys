@@ -19,14 +19,16 @@ ebook:
 
 ## 🧑🏻‍💻 3. Dictionary
 ---
-
+### 📄 1. 설명
 #### key를 통해 value를 가져오는 자료구조 마치 해쉬테이블 같다.
 Dictionary의 key와 value는 Generic으로 선언 가능하다.
 기본 타입뿐만 아니라, 리스트 등 다양한 자료구조, 클래스등 다된다.
 
+Dictionary와 OrderedDictionary가 있다.
+
 ---
 
-### 📄 2. 사용법
+### 📄 2. Dictionary 사용법
 #### 1). 딕셔너리 생성
 * 
     ```cs
@@ -168,3 +170,10 @@ Dictionary의 key와 value는 Generic으로 선언 가능하다.
 https://riucc.tistory.com/602
 
 https://engineer-mole.tistory.com/174
+
+---
+
+### 📄 2. OrderedDictionary 사용법
+SortedDictionary
+https://zenoahn.tistory.com/29
+https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.sorteddictionary-2?view=net-8.0
